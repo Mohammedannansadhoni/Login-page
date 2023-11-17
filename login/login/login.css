@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+
+
+}
+.main{
+    height: 100vh;
+    padding: 20px;
+    background-color: #d3d3d3;
+}
+.parent{
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+    background-color: white;
+}
+.child{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.login{
+    
+    color: #595959;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    padding: 1px;
+    font-weight: bold;   
+    
+}
+.container{
+    margin-top: 55px;
+    margin-bottom: 80px;
+    width: 400px;
+}
+.Email{
+    font-size:12px;;
+    letter-spacing: 0.2px;
+    color: #505050;
+    margin-bottom: 11px;
+}
+
+
+.password{
+    color: #505050;
+    margin-top: 51px;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    margin-bottom: 11px;
+}
+.remember{
+    font-size: small;
+    cursor: pointer;
+    border: #d3d3d3;
+    width: 100%;  
+}
+.clear-fix{
+    clear: both;
+}
+.check{
+    float: left;
+    width: 50%;
+}
+
+.forgot{
+    float: right;
+    width: 50%;
+}
+.text{
+    font-size: small;
+    padding-left: 5px;
+    color: #707070;
+}
+.footer{
+    color: white;
+}
+.emailborder{
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    margin-top: 11px;
+}
+::placeholder{
+    font-size: 20px;
+    position: absolute;
+    top: 12px;
+}
+
+
+.passwordborder{
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    margin-top: 11px;
+    margin-bottom: 25px;
+}
+.remfont{
+    font-size: 11px;
+    padding-left: 4px;
+}
+.checkbox1{
+    float: left;
+    display: flex;
+}
+
+
+
